@@ -1,0 +1,13 @@
+@(access_token: String, token_type: String, expires_in: Int, id_token: String, email: String)
+
+@main("token") {
+<h3>Token</h3>
+<div>
+    <div><strong>access_token:</strong> @access_token</div>
+    <div><strong>token_type:</strong> @token_type</div>
+    <div><strong>expires_in:</strong> @expires_in</div>
+    <div><strong>id_token:</strong> @id_token</div>
+    <br/>
+    <div><strong>email:</strong> @email</div>
+</div>
+}
